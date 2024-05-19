@@ -4,13 +4,16 @@
     padding: 0;
     font-family:Tempus Sans ITC, garamond;
     font-size:22px;
+    font-weight: bold;
     background-color: darkolivegreen;
 }
 
 h1 {
     text-align:center;
-    font-size: 3.5rem;
+    font-size: 65px;
     margin-bottom: 1rem;
+    margin-top:1rem;
+
 }
 
 .heaven {
@@ -27,11 +30,30 @@ h1 {
 
 .font {
     font-size: 27px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .reverse {
-    font-size: 20px;
-    font-weight:normal;
+    font-size: 22px;
+    font-weight:bold;
 }
 
+.sun {
+    display: block;
+    float: right;
+    height: auto;
+    width: 10rem;
+}
+
+.rays {
+    float: left;
+    height: 8rem;
+    width:auto;
+}
+
+.trees {
+    float: left;
+    display: block;
+    height: 6rem;
+   
+}
