@@ -5,7 +5,7 @@
     font-family:Tempus Sans ITC, garamond;
     font-size:22px;
     font-weight: bold;
-    background-color: darkolivegreen;
+    background-color: rgb(111, 142, 58);
 }
 
 h1 {
@@ -13,7 +13,6 @@ h1 {
     font-size: 65px;
     margin-bottom: 1rem;
     margin-top:1rem;
-
 }
 
 a:link, a:visited {
@@ -67,3 +66,24 @@ a:link, a:visited {
     height: 6rem;
     width: auto;
 }
+
+ol.bullet {
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.trinity {
+    display: block;
+    float: right;
+    height: 10rem;
+    width: auto;
+}
+
+.command {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    height: 10rem;
+}
+
